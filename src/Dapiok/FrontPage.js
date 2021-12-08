@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import HeaderBar from "./HeaderBar";
 import First from "./First";
 import Second from "./Second";
@@ -8,17 +8,17 @@ import Fifth from "./Fifth";
 import Sixth from "./Sixth";
 
 const FrontPage = () => {
-    return (
-        <div>
-            <HeaderBar/>
-            <First/>
-            <Second/>
-            <Third/>
-            <Fourth/>
-            <Fifth/>
-            <Sixth/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <HeaderBar />
+      <First />
+      <Second />
+      <Third />
+      <Fourth />
+      <Fifth />
+      <Sixth />
+    </div>
+  );
+};
 
-export default FrontPage
+export default FrontPage;
